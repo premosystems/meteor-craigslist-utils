@@ -8,6 +8,6 @@
 
 Tinytest.add('craisglist-utils - main test', function (test) {
 
-  test.isTrue(CL != undefined,'Craigslist cannot be undefined');
+  test.isTrue(CL != undefined,'CL export cannot be undefined');
 
 });

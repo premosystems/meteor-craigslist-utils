@@ -9,7 +9,7 @@ Npm.depends ({
 
 Package.on_use(function (api) {
 
-  api.add_files('craigslist-utils.js', ['client', 'server']);
+  api.add_files('craigslist-utils.js', ['server']);
 
   api.export('CL');
 
